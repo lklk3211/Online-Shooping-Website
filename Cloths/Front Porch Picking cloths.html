@@ -1,0 +1,842 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="..\cloths\favicon (1).ico" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="Cloths.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+<body>
+    <nav>
+   <img id="image" src="logo.jfif">
+   <ul id="horizontal-list">
+       <li><a href="../home/Front Porch Picking Online Supermarket.html">Home</a></li>
+	   <li><a href="..\grocery\Front Porch Picking grocery.html">Grocery</a></li>
+	   <li>
+	    <div class="dropdown">
+		  Clothes
+		  <div class="dropdown-content">
+			<a href="#a5">Men's Corner</a>
+			<a href="#a6">Women Corner</a>
+			<a href="#a7">Kids Corner</a>
+		  </div>
+        </div></a></li>
+	   <li><a href="..\electronics\Front Porch Picking electronics.html">Electronics</a></li>
+	   <li><a href="..\snacks\Front Porch Picking snacks.html">Snacks & Munchies Corner</a></li>
+	   <li><a id="showDiv"> <img src="cart1.jpg" style="height:25px;width:30px;margin-right:9px;"> CART </a> 
+	          <!--     CART CODE STARTS HERE ::: -->
+ 
+			 <div id="cart">
+				<div class="cart-items">  
+					<div class="cart-headings">
+					    <div><b> ITEM </b></div>
+                        <div><b> PRICE </b></div>
+						<div><b> QUANTITY </b></div>
+					</div> 
+				</div>	
+					<div class="total-price">
+						<table>
+						 <tr>
+							  <td><b>Subtotal</b></td>
+							  <td><b>Rs <span class="cart-total-price"> 117 </span> </b></td>
+						 </tr>
+						 <tr>
+							  <td><b>Delivery Charge</b></td>
+							  <td><b>Rs <span class="cart-delivery">  </span> </b></td>
+						 </tr>
+						 <tr>
+							  <td><b>Total</b></td>
+							  <td><b>Rs <span class="total"> 87,725.58 </span> </b></td>
+						 </tr>
+						</table>
+				   </div>
+			</div></li>
+   </ul>
+    <label id="icon">
+       <i class="fas fa-bars"></i>
+   </label>
+   
+   </nav>
+   
+   <header>
+    <div class="slideshow-container">
+
+       <div class="mySlides fade">
+           <a href="#a5"><img src="image.webp" ></a>
+      </div>
+
+       <div class="mySlides fade">
+            <a href="#a6"> <img src="2.webp"></a>
+         </div>
+
+      <div class="mySlides fade">
+            <a href="#a7"><img src="3.webp"></a>
+      </div>
+
+    </div>
+	
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+    </div>
+	
+   </header>
+   
+    <main>
+	
+	<h1 id="a5" class="clothing">MEN'S CLOTHING</h1>
+	<div id="main">
+	   <div class="fruits1">
+	           <img src="1.jpeg" class="fruits" style="height:220px" > 
+			   
+			   <p class="fresho" style="margin-left:-230px;"><b>OCTAVE </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Men's Regular Fit Checkered Casual Shirt</b></p>		
+               <p class="pcs">Size- S,M,L,XL,XS</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>₹1,599</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1049 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="2.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-230px;"><b>LEVI'S</b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Men Regular Fit Collar Casual Shirt</b></p>		
+               <p class="pcs">Size- M,L,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2,399</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1,349 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="3.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-160px;"><b>PETER ENGLAND  </b> </p>
+               <p class="food"  style="margin-top:10px;font-size:17px;"><b> Men Super Slim Fit  Casual Shirt</b></p>		
+               <p class="pcs">Size- S,M,L,XL,XXL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>1,399</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">949 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="4.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-230px;"><b>REEBOK  </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Sports Men Polo Neck Green T-Shirt</b></p>		
+               <p class="pcs">Size- XS,S,M,L,XL,XXL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>999</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">749</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+ 
+	   
+	   <div class="fruits1">
+	        <img src="5.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-230px;"><b>LEVI'S  </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Printed Men Polo Neck Orange T-Shirt</b></p>		
+               <p class="pcs">Size- L,XL,XXL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>1500</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">948 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="6.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-170px;"><b>ALLEN SOLLY  </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Printed Men Polo Neck Blue T-Shirt</b></p>		
+               <p class="pcs">Size- M,L,XL,XXL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>800</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">558 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="7.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-170px;"><b>HIGHLANDER   </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Slim Men Grey Jeans</b></p>		
+               <p class="pcs">Size- 28,30,34,38</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2500</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1699 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="8.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-230px;"><b>SPYKAR   </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Super Skinny Men Blue Jeans</b></p>		
+               <p class="pcs">Size- 28,30,32,34,38</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2230</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1499</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="9.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-200px;"><b>PEPE JEANS   </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Slim Men Dark Blue Jeans</b></p>		
+               <p class="pcs">Size- 32,34,38</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3440</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2499</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="10.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-250px;"><b>NIKE   </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Solid Men Black Track Pants </b></p>		
+               <p class="pcs">Size- S,M,X,XL,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3459</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2799</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	        <img src="11.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-250px;"><b>PUMA   </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Solid Men Black Track Pants </b></p>		
+               <p class="pcs">Size- S,M,X,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2249</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1399 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	   <div class="fruits1">
+	        <img src="12.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-240px;"><b>ADIDAS   </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Solid Men Black Track Pants </b></p>		
+               <p class="pcs">Size- XS,X,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>1849</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1199</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+
+	   <div class="fruits1">
+	        <img src="13.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-190px;"><b>WILDCRAFT   </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Full Sleeve Solid Men Riding Jacket </b></p>		
+               <p class="pcs">Size- XS,M,X,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2749</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1990</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	  <div class="fruits1">
+	        <img src="14.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-180px;"><b>JACK & JONES    </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Full Sleeve  Men Casual Jacket </b></p>		
+               <p class="pcs">Size- S,M,X,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3549</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2990 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+
+	   <div class="fruits1">
+	        <img src="15.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-250px;"><b>PUMA    </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Full Sleeve Solid Men Casual Jacket </b></p>		
+               <p class="pcs">Size- X,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>5549</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">3490</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+       <div class="fruits1">
+	        <img src="16.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-210px;"><b>SUPERDRY     </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Printed Men Grey Cargo Shorts </b></p>		
+               <p class="pcs">Size- S,M,X,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2549</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1890 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	  <div class="fruits1">
+	        <img src="17.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-150px;"><b>TOMMY HILFIGER     </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Printed Men Beige Basic Shorts </b></p>		
+               <p class="pcs">Size- S,M,X</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2289</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1770</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+
+      <div class="fruits1">
+	        <img src="18.jpeg" class="fruits" style="height:220px">
+               
+			   <p class="fresho" style="margin-left:-120px;"><b> CALVIN KLEIN JEANS     </b> </p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Solid Men Grey Chino Shorts </b></p>		
+               <p class="pcs">Size- S,M,X,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3389</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2890</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   </div>
+
+	<h1 id="a6" class="clothing">WOMEN CLOTHING</h1>
+	<div id="main">
+
+       <div class="fruits1">
+	          <img src="19.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-170px;" ><b>MONTE CARLO</b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Casual Half Sleeve Floral Print Women Top</b></p>		
+               <p class="pcs">Size- S,M,L,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>4350</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">3320 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+
+	   <div class="fruits1">
+	          <img src="20.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-240px;" ><b>LEVI'S</b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Casual Puff Sleeve Self Design Women Top</b></p>		
+               <p class="pcs">Size- XS,S,M,L,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2350</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1720 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	   <div class="fruits1">
+	          <img src="21.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-200px;" ><b>VERO MODA </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Casual Full Sleeve Printed Women  Top</b></p>		
+               <p class="pcs">Size- XS,S,M,L,XL,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3750</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2720 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+  
+	   <div class="fruits1">
+	          <img src="22.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-150px;" ><b>FLYING MACHINE  </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Super Skinny Women Blue Jeans</b></p>		
+               <p class="pcs">Size- 28,30,34,36</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2550</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1760 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+
+	   <div class="fruits1">
+	          <img src="23.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-220px;" ><b>SPYKAR </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Skinny Women Blue Jeans</b></p>		
+               <p class="pcs">Size- 28,30,34</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2850</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2260</span>   </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+
+	  <div class="fruits1">
+	          <img src="24.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b>PEPE JEANS </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Jogger Fit Women Blue Jeans</b></p>		
+               <p class="pcs">Size- 28,32,34,36</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>4450</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">3390  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	  <div class="fruits1">
+	          <img src="25.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-140px;" ><b>TOMMY HILFIGER  </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Striped Women High Neck Blue T-Shirt</b></p>		
+               <p class="pcs">Size- XS,S,M,L,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>4450</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">3390 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	   <div class="fruits1">
+	          <img src="26.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-170px;" ><b>CALVIN KLEIN  </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Printed Women Round Neck Black T-Shirt</b></p>		
+               <p class="pcs">Size- XS,S,M,L</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2780</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2090 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	 
+	    <div class="fruits1">
+	          <img src="27.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-160px;" ><b>UNDER ARMOUR   </b></p>
+               <p class="food"  style="margin-top:10px;font-size:17px;"><b> Sporty Women Round Neck White T-Shirt</b></p>		
+               <p class="pcs">Size- XS,S,M,L</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3380</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2590 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  
+	    <div class="fruits1">
+	          <img src="28.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-240px;" ><b>BIBA   </b></p>
+               <p class="food" style="margin-top:10px;font-size:17px;"><b> Printed Pure Cotton Frontslit Kurta </b></p>		
+               <p class="pcs">Size- XS,S,M,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3380</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2590  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	  <div class="fruits1">
+	          <img src="29.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b>LYMI LABEL   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Embroidered Georgette Anarkali Kurta </b></p>		
+               <p class="pcs">Size- XS,S,M,XL,XLL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>4999</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2760  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	 
+	  <div class="fruits1">
+	          <img src="30.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-230px;" ><b>ZOLA   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Embroidered Georgette Straight Kurta  </b></p>		
+               <p class="pcs">Size- XS,S,M,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2899</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2370 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	 
+	   <div class="fruits1">
+	          <img src="31.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b>VERO MODA  </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Slim Fit Women Grey Polyester Trousers  </b></p>		
+               <p class="pcs">Size- S,M,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2299</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1689  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  
+	   <div class="fruits1">
+	          <img src="32.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-230px;" ><b>INDYA   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Regular Fit Green Polyester Trousers </b></p>		
+               <p class="pcs">Size- XS,S,M,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2549</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1990</span>   </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  
+	   <div class="fruits1">
+	          <img src="33.jpeg" class="fruits" style="height:230px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b> ADDYVERO   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Black Cotton Blend Trousers </b></p>		
+               <p class="pcs">Size- XS,S,M,XL</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2599</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1470 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+      
+    </div>
+
+	<h1 id="a7" class="clothing">KIDS ZONE</h1>
+	<div id="main">
+	
+      <div class="fruits1">
+	          <img src="34.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-230px;" ><b> PUMA  </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Full Sleeve Solid Boys Casual Jacket </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2999</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">4470  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	  <div class="fruits1">
+	          <img src="35.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-50px;" ><b> UNITED COLORS OF BENTTEN   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Full Sleeve Solid Boys Jacket </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3099</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2790 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	          <img src="36.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b> PSPEACHES   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b> Ethnic Wear Floral Print Lehenga</b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>5999</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">4470  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	          <img src="37.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b>GINI & JONY    </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Girls Midi/Knee Length Party Dress</b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3599</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2970  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	    
+	  <div class="fruits1">
+	          <img src="38.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b> VASTRAMAY   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Boys Festive & Party Ethnic Jacket </b></p>		
+               <p class="pcs">Size- XS</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3599</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">3090  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	    
+	   <div class="fruits1">
+	          <img src="39.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-220px;" ><b> ADIDAS   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Boys Printed Polyester T Shirt </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3209</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2470 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	          <img src="40.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-220px;" ><b> JORDAN   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Boys Graphic Print Pure Cotton T Shirt </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2599</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2270 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	 <div class="fruits1">
+	          <img src="41.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b> Adidas   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Boys Self Design Polyester T Shirt  </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2808</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">3299 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	          <img src="42.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-230px;" ><b> PUMA   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Track Pant For Boys  </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>1699</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">3099 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	
+	   <div class="fruits1">
+	          <img src="43.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-250px;" ><b> GAP   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Short For Girls Casual Solid Cotton Blend </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2199</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">1890 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  
+	  <div class="fruits1">
+	          <img src="44.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-230px;" ><b> LEVI'S   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Short For Boys Casual Solid Pure Cotton </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3090</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2400 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	 
+	   <div class="fruits1">
+	          <img src="45.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-150px;" ><b> U.S. POLO ASSN.    </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Regular Boys Blue Jeans </b></p>		
+               <p class="pcs">Size- 24,26,28</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3490</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2990  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  
+	   <div class="fruits1">
+	          <img src="46.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-250px;" ><b> GAP   </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Regular Boys Blue Jeans </b></p>		
+               <p class="pcs">Size- 24,26</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2599</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2400 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	          <img src="47.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-240px;" ><b>BIBA</b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Girls Full Length Party Dress </b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>3457</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2980</span>   </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+	   <div class="fruits1">
+	          <img src="48.jpeg" class="fruits" style="height:200px">
+	          
+			   <p class="fresho" style="margin-left:-190px;" ><b> GINI & JONY    </b></p>
+               <p  class="food" style="margin-top:10px;font-size:17px;"><b>Knee Length Casual Dress</b></p>		
+               <p class="pcs">Size- XS,S</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>2499</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">2090 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+    </div>
+	</main>
+	
+	<footer>
+	
+	<div id="footer2">
+	    <table cellspacing="20px">
+	     <tr>
+		     <td class="blue"> <b> POPULAR CATEGORIES: </b>  </td>
+			 <td class="red"> <b>  
+             <span> Shirts, </span>   <span> Jeans, </span>  <span>Active Wear, </span> <span> Women Tops, </span> <span> T-Shirts, </span> <span>
+			   Sports-Lowers, </span> <span> Women Kurtas, </span> <span> Women Saares,  </span> <span>
+			Men's Ethnic Sets, </span> <span> Men's Shorts, </span> <span> Men's Sweatshirts, </span>  <span>Women's Palazzos, </span>  <span> Men's Cargos  </span>  <span>Women's Dupattas, </span>  <span>Women's Gowns </span>&  <span>Men's Jackets . </span> 
+			</b> </td>
+		 </tr>
+		  <tr>
+		     <td class="blue"> <b> POPULAR BRANDS: </b>  </td>
+			 <td class="red"> <b>
+            <span>Allen Solly,  </span>  <span> Levi’s,</span> Provogue, </span> <span> Van Heusen, </span>  <span>Park Avenue, </span> <span>Pepe Jeans, </span>  <span> Mufti,  </span> <span>  Wrangler,  </span>  <span>Numero Uno,  </span>  <span>Monte Carlo,  </span> <span>Peter England  </span>
+		  <span>Louis Philippe,  </span> <span> Fabindia , </span>  <span> Biba,</span> <span>Flying Machine, </span>  <span> Raymond, </span>  <span> Puma, </span>   <span> Nike, </span>  <span> Reebok , </span>  <span> Adidas , </span>  <span> Asics. </span> </b></td>
+		 </tr>
+		  <tr>
+		     <td class="blue"> <b> CITIES WE SERVE: </b> </td>
+			 <td class="red"> <b>  <span> Bangalore,  </span>  <span>Hyderabad, </span>  <span> Mumbai, </span>  <span> Pune, </span>  <span>Chennai, </span>  <span> Delhi,  </span>   <span> Mysore,  </span>  <span> Madurai, </span>  <span> Coimbatore, </span> <span> Vijayawada-Guntur, </span>
+			  <span> Kolkata,  </span>  <span>Ahmedabad-Gandhinagar, </span>  <span>Nashik , </span> <br>  <span> Lucknow-Kanpur, </span> <span>Gurgaon,  </span> <span>Vadodara,  </span> <span>Visakhapatnam,  </span> <span>Surat,  </span> <span> Nagpur,  
+			  </span>  <span>Patna, </span> <span> Indore, </span>  <span> Chandigarh Tricity, </span> <span> Jaipur, </span> <span> Bhopal, </span> <span> Noida-Ghaziabad,  </span> <span>Kochi.  </span> </b>  </td>
+		 </tr>
+		  </table>
+	</div>
+	
+	<div id="footer1">
+	    <div style="display:inline-block;vertical-align:top;padding-right:100px;line-height:3rem">
+		    <ul id="about">
+			    <b><li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">Front Porch Picking</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">About Us</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">In News</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">Privacy Policy</a></li></b>
+			</ul>
+		</div>
+		<div style="display:inline-block;vertical-align:top;padding-right:100px;line-height:3rem">
+		    <ul id="help">
+			    <b><li class="x">Help</li>
+				<li class="x" id="contact">Contact Us</li></b>
+				<li style="display:none;color:white;background-color:black;padding:0px 4px;" id="h"><span> 1840 130 1000</span></li>
+			</ul>
+		</div>
+		<div style="display:inline-block;padding-right:100px;">
+		    <ul id="download">
+			    <li style="margin-bottom:14px;font-family:cursive;padding-top:9px;" class="x"><b>Download Our App</b></li>
+				<li style="margin-bottom:20px;"><a href="https://www.apple.com/in/app-store/" style="text-decoration:none"><img src="playstore.png"></a></li>
+				<li style="margin-bottom:3px;"><a href="https://www.apple.com/in/app-store/" style="text-decoration:none"><img src="playstore1.png"></a></li>
+			</ul>
+		</div>
+		<div style="display:inline-block;vertical-align:top;">
+		    <ul style="list-style:none;">
+			    <li id="social" class="x"><b>Get Social With Us</b></li>
+				<li>
+				    <img src="fb.png" style="height:40px;width:40px;margin-left:1rem;border-radius:20%">
+				    <img src="insta.png" style="height:40px;width:40px;margin-left:1rem;border-radius:20%">
+				</li>
+			</ul>
+		</div>
+    </div>
+	</footer>
+	
+    <script src="Cloths.js" type="text/javascript"></script>
+</body>
+</html>

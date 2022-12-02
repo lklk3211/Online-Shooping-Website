@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="..\info\favicon (1).ico" type="image/gif" sizes="16x16">
+<link rel="stylesheet" href="project.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  
+<style>
+		    * {box-sizing: border-box}
+
+			/* Style the tab */
+			.tab {
+			  float: left;
+			  border: 1px solid #ccc;
+			  background-color: #f1f1f1;
+			  width: 30%;
+			  height: 300px;
+			}
+
+			/* Style the buttons inside the tab */
+			.tab button {
+			  display: block;
+			  background-color: inherit;
+			  color: black;
+			  padding: 22px 16px;
+			  width: 100%;
+			  border: none;
+			  outline: none;
+			  text-align: left;
+			  cursor: pointer;
+			  transition: 0.3s;
+			  font-size: 17px;
+			}
+
+			/* Change background color of buttons on hover */
+			.tab button:hover {
+			  background-color: #ddd;
+			}
+
+			/* Create an active/current "tab button" class */
+			.tab button.active {
+			  background-color: #ccc;
+			}
+
+			/* Style the tab content */
+			.tabcontent {
+			  float: left;
+			  padding: 0px 12px;
+			  border: 1px solid #ccc;
+			  width: 70%;
+			  border-left: none;
+			  height: 800px;
+			}
+			nav{
+				height:80px;
+				width: 100%;
+				background:#000080	;
+			}
+			nav.image{
+				padding:0 100px;
+			}
+			#horizontal-list{
+			   float:right;
+			   margin-right:40px;
+			   list-style: none;
+			   display:inline-block;
+			}
+			#horizontal-list li a{
+				text-decoration:none;
+				color:white;
+				font-size:18px;
+				text-transform: uppercase;
+				padding:7px 10px;
+				border-radius:3px;
+			}
+			#horizontal-list li a:hover{
+				color:lightblue;
+			}
+
+			#horizontal-list li{
+			   display:inline-block;
+			   font-size: 1.5rem;
+			   margin: 0px 8px;
+			   line-height:80px;
+			}
+			nav #icon{
+				color:white;
+				font-size: 30px;
+				line-height: 80px;
+				float:right;
+				margin-top:39px;
+				margin-right:40px;
+				cursor: pointer;
+				display:none;
+			}
+			@media(max-width:1048px){
+				/*nav.image{
+					padding-left:60px;
+				}
+				nav ul{
+					margin-right:20px;
+				}
+				nav a{
+					font-size:17px;
+				}*/
+				nav #icon{
+					display:block;
+				}
+				nav ul{
+					position: fixed;
+					width:100%;
+					height: 100vh;
+					background:#2f3640;
+					top: 80px;
+					left: 0%;
+					margin-left:0px;
+					transition: all .5s;
+				}
+				nav li {
+					display:block !important; 
+					margin: 30px 0px !important;
+					line-height: 30px;
+					text-align:center;
+				}
+				nav a{
+					font-size:20px;
+				}
+				a:hover{
+					border:none;
+					color:green !important;
+				}
+				#horizontal-list.show{
+					left:0;
+				}
+			}
+			@media(max-width:909px){
+				nav #icon{
+					display:block;
+				}
+				nav ul{
+					position: fixed;
+					width:100%;
+					height: 100vh;
+					background:#2f3640;
+					top: 80px;
+					left: 0%;
+					margin-left:0px;
+					transition: all .5s;
+				}
+				nav li {
+					display:block !important; 
+					margin: 30px 0px !important;
+					line-height: 30px;
+					text-align:center;
+				}
+				nav a{
+					font-size:20px;
+				}
+				a:hover{
+					border:none;
+					color:green !important;
+				}
+				#horizontal-list.show{
+					left:0;
+				}
+			}
+			#image{
+				float:left;
+				height:14vh;
+				width:10vw;
+				margin-left:38px;
+				margin-right:10px;
+				
+		    }
+			#footer1{
+				background-color:#B7CEEC;
+				margin:5% -0.5% 0% -10% !important;
+				padding-left:15%;
+			}
+			#footer2{
+			   padding-left:8%;
+			   padding-top:3%;
+			   padding-right:5%;
+			   margin-top:800px;
+			}
+			.blue{
+			   color:blue;
+			}
+			.red{
+				text-align:left !important;
+			}
+			.red span:hover{
+			   color:#6c2dc7; 
+			}
+</style>
+</head>
+<body>
+ <label id="icon" style="display:none">
+       <i class="fas fa-bars"></i>
+   </label>
+<nav>
+   <img id="image"  src="logo.jfif">
+   <ul id="horizontal-list">
+       <li><a href="../home/Front Porch Picking Online Supermarket.html">Home</a></li>
+	   <li><a href="..\grocery\Front Porch Picking grocery.html">Grocery</a></li>
+	   <li><a href="..\cloths\Front Porch Picking cloths.html">Clothes</a></li>
+	   <li><a href="..\electronics\Front Porch Picking electronics.html">Electronics</a></li>
+	   <li><a href="..\snacks\Front Porch Picking snacks.html"> Snacks & Munchies Corner </a></li>
+	  
+   </ul>
+    <label id="icon">
+       <i class="fas fa-bars"></i>
+   </label>
+   
+   </nav>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Front')" id="defaultOpen">Front Porch Pickings</button> 
+  <button class="tablinks" onclick="openCity(event, 'AboutUs')">About Us</button>
+  <button class="tablinks" onclick="openCity(event, 'InNews')" id=""> In News </button>
+  <button class="tablinks" onclick="openCity(event, 'PrivacyPolicy')" id=""> Privacy Policy </button>
+</div>
+
+
+
+<div id="Front" class="tabcontent">
+  <h1 style="margin-left:60px;">Front Porch Pickings </h1>
+  <span style="display:inline-block;width:50%" ><p style="margin-left:60px;text-align: justify;">frontporchpicking.com (Innovative Retail Concepts Private Limited) is India’s largest online food and grocery store. With over 18,000 products and over a 1000 brands in our catalogue you will find everything you are looking for. Right from fresh Fruits and Vegetables, Rice and Dals, Spices and Seasonings to Packaged products, Beverages, Personal care products, Meats – we have it all.Choose from a wide range of options in every category, exclusively handpicked to help you find the best quality available at the lowest prices. Select a time slot for delivery and your order will be delivered right to your doorstep, anywhere in Bangalore, Hyderabad, Mumbai, Pune, Chennai, Delhi, Noida, Mysore, Coimbatore, Vijayawada-Guntur, Kolkata, Ahmedabad-Gandhinagar, Lucknow-Kanpur, Gurgaon, Vadodara, Visakhapatnam, Surat, Nagpur, Patna, Indore and Chandigarh Tricity You can pay online using your debit / credit card or by cash / sodexo on delivery.
+  We guarantee on time delivery, and the best quality!</p> 
+  </span>
+  <span style="margin-left:50px;display:inline-block;width:40%" >
+  <img src="shop.jpg" height="300px" width="300px">
+   </span>
+
+ <h2 style="margin-left:60px;">Happy Shopping</h2>
+ <span style="display:inline-block;width:50%;" ><p style="margin-left:60px;">Why should I use frontporchpicking.com?</p><p style="margin-left:60px;text-align: justify;">frontporchpicking.com allows you to walk away from the drudgery of grocery shopping and welcome an easy relaxed way of browsing and shopping for groceries. Discover new products and shop for all your food and grocery needs from the comfort of your home or office. No more getting stuck in traffic jams, paying for parking, standing in long queues and carrying heavy bags – get everything you need, when you need, right at your doorstep. Food shopping online is now easy as every product on your monthly shopping list, is now available online at frontporchpicking.com, India’s best online grocery store.</p></span>
+ <span style="margin-left:50px;display:inline-block;width:40%" >
+  <img src="basket.jpg" height="200px" width="200px">
+   </span>
+ </div>
+ 
+ 
+ 
+ 
+<div id="AboutUs" class="tabcontent">
+  <h1 style="margin-left:60px;" id="#a9"> About Us </h1>
+  <span style="display:inline-block;width:50%" >
+  <p style="margin-left:60px;text-align:justify;"> Did you ever imagine that the freshest of fruits and vegetables, top quality pulses and food grains, dairy products and hundreds of branded items could be handpicked and delivered to your home, all at the click of a button? India’s first
+	comprehensive online megastore, frontporchpicking.com, brings a whopping 20000+ products with more than 1000 brands, to over 4 million happy customers. From grocery to furniture, Front Porch Picking has everything you need for 
+	  your daily needs. frontporchpicking.com is convenience personified We’ve taken away all the stress associated with shopping for daily essentials, and you can now order all your household products and even buy groceries online without travelling 
+	  long distances or standing in serpentine queues. Add to this the convenience of finding all your requirements at one single source, along with great savings, and you will realize that front Porch Picking- India’s largest online supermarket, has 
+	  revolutionized the way India shops for groceries. Online grocery shopping has never been easier. Need things fresh? Whether it’s fruits and vegetables, we have this covered as well! Get clothes and more online at your convenience. Hassle-free 
+	  Home Delivery options We deliver to 25 cities across India and maintain excellent delivery times, ensuring that all your products from groceries to electronics reach you in time.
+	  Slotted Delivery: Pick the most convenient delivery slot to have your grocery delivered. From early morning delivery for early birds, to late-night delivery for people who work the late shift, front porch picking caters to every schedule.
+	  Express Delivery: This super useful service can be availed by customers in cities like Bangalore, Mumbai, Punjab,Pune, Chennai, Kolkata, Hyderabad and Delhi-NCR in which we deliver your orders to your doorstep in 90 Minutes.
+   
+  </p>
+  </span>
+  <span style="margin-left:50px;display:inline-block;width:40%;" >
+      <img src="shop-bag.jfif" height="400px" width="400px">
+  </span>
+</div>
+
+
+
+
+<div id="InNews" class="tabcontent">
+  <h1 style="margin-left:40%;"> In News </h1>
+  <img src="mike.jpg" height="300px" width="500px" style="margin-left:25%"> 
+  <p><b>OCTOBER 13, 2019</b></p>
+  <p style="color:red;">LiveMint</p>
+  <p>BIGBASKET: DELIVERING THE GOODS</p>
+  <hr>
+  <p><b>SEPTEMBER 8, 2020</b></p>
+  <p style="color:red;">Business Standard</p>
+  <p>BIGBASKET TARGETS RS 2,000-CR REVENUE IN 2016-17</p>
+  <hr>
+   <p><b>MAY 9, 2018</b></p>
+   <p style="color:red;">TechInAsia</p>
+   <p>BIGBASKET’S SECRET TO HANDLING 35,000 ORDERS A DAY, WHERE EVEN AMAZON FUMBLES</p>
+   <hr>
+ 
+</div>
+
+<div id="PrivacyPolicy" class="tabcontent">
+  <h2 style="margin-left:40%;"> Privacy Policy </h2>
+  <p style="margin-left:60px;font-size:1.2rem;margin-right:60px;text-align: justify;">To protect against the loss, misuse, unauthorised access, damage and alteration of the information under its control, IRCPL has in place appropriate and reasonable security measures and safeguards, in compliance with applicable laws. For example, IRCPL servers are accessible only to authorised personnel and your information is shared with the authorised personnel on a need to know basis to complete the transaction and to provide the services requested by you. Although IRCPL will endeavour to safeguard the confidentiality of your personally identifiable information, transmissions made by means of the Internet cannot be made absolutely secure. By using this Site, you agree that IRCPL will have no liability for disclosure of your information due to errors in transmission or unauthorized acts of third parties. By using this Site or providing information, you agree (i) that we can communicate with you electronically regarding security, privacy, and administrative issues relating to your use of the Site; and (ii) that we can take adequate physical, managerial, and technical safeguards to preserve the integrity and security of your data till the time you use the Site or the services provided by the Site (directly or indirectly).
+  By using this Site, you agree that IRCPL will have no liability for disclosure of your information due to errors in transmission or unauthorized acts of third parties. By using this Site or providing information, you agree (i) that we can communicate with you electronically </p>
+  <hr>
+  <p style="margin-left:60px;font-size:1.2rem;margin-right:60px;text-align: justify;"> IRCPL will not use your financial information for any purpose other than to complete a transaction with you. IRCPL does not rent, sell or share your personal information and will not disclose any of your personally identifiable information to third parties. In cases where it has your permission to provide products or services, you've requested and such information is necessary to provide these products or services with the information may be shared with IRCPL’s business associates and partners. IRCPL may, however, share consumer information on an aggregate with its partners or third parties where it deems necessary. In addition, IRCPL may use this information for promotional offers, to help investigate, prevent or take action regarding unlawful and illegal activities, suspected fraud, potential threat to the safety or security of any person, violations of the Site’s terms of use or to defend against legal claims; special circumstances such as compliance with subpoenas, court orders, requests/order from legal authorities or law enforcement agencies requiring such disclosure. </p>
+</div>
+
+<footer>
+	
+	<div id="footer2">
+	    <table cellspacing="20px">
+	     <tr>
+		     <td class="blue"> <b> POPULAR CATEGORIES: </b>  </td>
+			 <td class="red"> <b>  
+             <span> Haldiram Namkeens ,</span><span>   Nimbu Masala  ,</span>  <span>Soya Sticks, </span> <span>  Tasties ,</span> <span>
+			  Flakes, </span> <span> Kettle Chips , </span> <span> Namkeen,  </span> <span>
+			 Cornitos, </span> <span>  Doritos, </span> <span> Fritos ,</span>  <span> Ratlami Mixture, </span>  <span> Frozen , </span> <br>  <span>Veg Food, </span>  <span> Britannia Nutri Choice,  </span>   <span> 	Digestives, </span> 
+			</b> </td>
+		 </tr>
+		  <tr>
+		     <td class="blue"> <b> POPULAR BRANDS: </b>  </td>
+			 <td class="red"> <b>
+            <span>Fresho,  </span>  <span> Haldiram,</span>  </span> <span> Kelloggs, </span>  <span>MKS Foods, </span> <span> Maakhan Bhog,</span>  <span> Kipps Confectioners Pvt,  </span> <span>  Parle ,</span>  <span> Sunfeast Biscuits,  </span>  <span>  Anmol Biscuits, </span> <span>  Britannia Biscuits ,</span>
+		  <span> Mc Vities Biscuits, </span> <span> Real,</span> <span>Milky Mist. </span> </b></td>
+		 </tr>
+		  <tr>
+		     <td class="blue"> <b> CITIES WE SERVE: </b> </td>
+			 <td class="red"> <b>  <span> Bangalore,  </span>  <span>Hyderabad, </span>  <span> Mumbai, </span>  <span> Pune, </span>  <span>Chennai, </span>  <span> Delhi,  </span>   <span> Mysore,  </span>  <span> Madurai, </span>  <span> Coimbatore, </span> <span> Vijayawada-Guntur, </span>
+			  <span> Kolkata,  </span>  <span>Ahmedabad-Gandhinagar, </span>  <span>Nashik , </span> <br>  <span> Lucknow-Kanpur, </span> <span>Gurgaon,  </span> <span>Vadodara,  </span> <span>Visakhapatnam,  </span> <span>Surat,  </span> <span> Nagpur,  
+			  </span>  <span>Patna, </span> <span> Indore, </span>  <span> Chandigarh Tricity, </span> <span> Jaipur, </span> <span> Bhopal, </span> <span> Noida-Ghaziabad,  </span> <span>Kochi.  </span> </b>  </td>
+		 </tr>
+		  </table>
+	</div>
+	<div id="footer1">
+	    <div style="display:inline-block;vertical-align:top;padding-right:100px;line-height:3rem">
+		    <ul style="list-style:none;" id="about">
+			    <b><li ><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">Front Porch Picking</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">About Us</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">In News</a></li>
+				<li ><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">Privacy Policy</a></li></b>
+			</ul>
+		</div>
+		<div style="display:inline-block;vertical-align:top;padding-right:100px;line-height:3rem">
+		    <ul style="list-style:none;" id="help">
+			    <b><li class="x">Help</li>
+				<li class="x" id="contact">Contact Us</li></b>
+				<li style="display:none;color:white;background-color:black;padding:0px 4px;" id="h"><span> 1840 130 1000</span></li>
+			</ul>
+		</div>
+		<div style="display:inline-block;padding-right:100px;">
+		    <ul style="list-style:none;" id="download">
+			    <li style="margin-bottom:14px;font-family:cursive;padding-top:9px;" class="x"><b>Download Our App</b></li>
+				<li style="margin-bottom:20px;"><button><img src="playstore.png"></button></li>
+				<li style="margin-bottom:3px;"><button><img src="playstore1.png"></button></li>
+			</ul>
+		</div>
+		<div style="display:inline-block;vertical-align:top;">
+		    <ul style="list-style:none;">
+			    <li id="social" class="x"><b>Get Social With Us</b></li>
+				<li>
+				    <img src="fb.png" style="height:40px;width:40px;margin-left:1rem;border-radius:20%">
+				    <img src="insta.png" style="height:40px;width:40px;margin-left:1rem;border-radius:20%">
+				</li>
+			</ul>
+		</div>
+    </div>
+</footer>   
+   
+   <script>
+		function openCity(evt, cityName) {
+			  var i, tabcontent, tablinks;
+			  tabcontent = document.getElementsByClassName("tabcontent");
+			  for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			  }
+			  tablinks = document.getElementsByClassName("tablinks");
+			  for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			  }
+			  document.getElementById(cityName).style.display = "block";
+			  evt.currentTarget.className += " active";
+		}
+
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+        $(document).ready(function(){
+		$('#contact').hover(function(){
+			$('#h').toggle();
+		});
+		$('.x').mouseenter(function(){
+			$(this).css('color','#006666');
+		});
+		$('.x').mouseleave(function(){
+			$(this).css('color','black');
+		});
+	});		
+</script>
+
+</body>
+</html>

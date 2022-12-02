@@ -1,0 +1,309 @@
+nav{
+	height:80px;
+	width: 100%;
+	background:#000080	;
+}
+nav.image{
+	padding:0 100px;
+}
+#horizontal-list{
+   float:right;
+   margin-right:40px;
+   list-style: none;
+   display:inline-block;
+}
+#horizontal-list li a{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+	text-transform: uppercase;
+	padding:7px 10px;
+	border-radius:3px;
+}
+#horizontal-list li a:hover{
+	color:lightblue;
+}
+
+#horizontal-list li{
+   display:inline-block;
+   font-size: 1.5rem;
+   margin: 0px 8px;
+   line-height:80px;
+}
+nav #icon{
+	color:white;
+	font-size: 30px;
+	line-height: 80px;
+	float:right;
+	margin-top:39px;
+	margin-right:40px;
+	cursor: pointer;
+	display:none;
+}
+@media(max-width:1048px){
+	/*
+	nav.image{
+		padding-left:60px;
+	}
+	nav ul{
+		margin-right:20px;
+	}
+	nav a{
+		font-size:17px;
+	}
+	*/
+	nav #icon{
+		display:block;
+	}
+	nav ul{
+		position: fixed;
+		width:100%;
+		height: 100vh;
+		background:#2f3640;
+		top: 80px;
+		left: 0%;
+		margin-left:0px;
+		transition: all .5s;
+	}
+	nav li {
+		display:block !important; 
+		margin: 30px 0px !important;
+		line-height: 30px;
+		text-align:center;
+	}
+	nav a{
+		font-size:20px;
+	}
+	a:hover{
+		border:none;
+		color:green !important;
+	}
+	#horizontal-list.show{
+		left:0;
+	}
+}
+@media(max-width:909px){
+	nav #icon{
+		display:block;
+	}
+	nav ul{
+		position: fixed;
+		width:100%;
+		height: 100vh;
+		background:#2f3640;
+		top: 80px;
+		left: 0%;
+		margin-left:0px;
+		transition: all .5s;
+	}
+	nav li {
+		display:block !important; 
+		margin: 30px 0px !important;
+		line-height: 30px;
+		text-align:center;
+	}
+	nav a{
+		font-size:20px;
+	}
+	a:hover{
+		border:none;
+		color:green !important;
+	}
+	#horizontal-list.show{
+		left:0;
+	}
+}
+@media (max-width: 900px) {
+    #main{
+	 margin-left: 120px !important;
+ }	
+}
+@media (max-width: 600px) {
+ #main{
+	 margin-left: 80px !important;
+ }	
+}
+#image{
+	float:left;
+	height:14vh;
+	width:10vw;
+	margin-left:38px;
+	margin-right:10px;
+	
+}
+.slideshow-container{
+	float:left;
+}
+.mySlides img{
+	 width:98vw;
+	 height:500px;
+}
+
+.dropdown {
+  display: inline-block;
+  color:white;
+  text-transform: uppercase;
+  font-size:18px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:Black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+#main{
+	margin-top:70px;
+    margin-left:270px;
+	margin-right:200px;
+}
+.fruits{
+	height:100px;
+	width:200px;
+	margin-top:10px;
+}
+.fruits1{
+	display:inline-block;
+	border:2px solid #e6e6e6;
+	height:370px;
+	width:300px;
+	margin:5px;
+	text-align: center;  
+	margin-bottom:40px;
+	margin-right:30px;
+}
+.fruits1:hover{
+	box-shadow:5px 10px 18px #888888;
+}
+#footer1{
+	background-color:#B7CEEC;
+	margin:5% -0.5% 0% -10% !important;
+	padding-left:15%;
+}
+#footer2{
+   padding-left:8%;
+   padding-top:3%;
+   padding-right:5%;
+}
+.blue{
+   color:blue;
+}
+.red{
+	text-align:left !important;
+}
+.red span:hover{
+   color:#6c2dc7; 
+}
+.qnty{
+   width:3rem;
+}
+.price{
+	background-color:#d1d1e0;
+}
+.green{
+	height:20px;
+	width:20px;
+	margin-left:-250px;
+}
+
+.name{
+	 margin-left:-100px;
+	 margin-top:-10px;
+}
+.pcs{
+	margin-top:20px;
+	margin-bottom:40px;
+}
+#a5{
+	text-align:center;
+	margin-top:590px;
+	font-size:50px;
+}
+#a6{
+	text-align:center;
+	margin-top:90px;
+	font-size:50px;
+}
+#a7{
+	text-align:center;
+	margin-top:80px;
+	font-size:50px;
+}
+.st{
+	text-shadow: 1px 1px 2px red, 0 0 25px grey, 0 0 5px darkblue;
+}
+#about{
+	list-style:none;
+	font-family:cursive;
+}
+#help{
+	list-style:none;
+	font-family:cursive;
+}
+#download{
+	list-style:none;
+}
+#social{
+	 margin-bottom:1rem;
+	 font-family:cursive;
+	 padding-top:9px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS),
+ and when you move the mouse over it (hover) */
+.active, #showDiv:hover {
+  background-color: #ccc;
+}
+
+/* Hidding the cart div */
+#cart{
+    position:fixed;
+	left:20%;
+	right:2%;
+    display:none;  
+	overflow:scroll;
+		background-color:#ff9900;
+	padding:2% 10%;
+}    
+
+.cart-headings{
+    display:flex;
+}
+
+.cart-headings div:first-child{
+    margin-left:-2%;
+}
+
+.cart-headings div{
+    margin-left:20%;
+}
+
+.total-price{
+   display:flex;
+   justify-content:flex-end;
+}
+.total-price table{
+   border-top: 3px solid #ff523b;
+   width:100%;
+   max-width:380px;
+}
+td:last-child{
+   text-align: right;
+}
+th:last-child{
+   text-align: right;
+}
+
+.bo{
+    font-weight:bold;
+}

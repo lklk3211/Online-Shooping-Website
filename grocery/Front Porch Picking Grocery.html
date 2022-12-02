@@ -1,0 +1,744 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="..\grocery\favicon (1).ico" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="grocery.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+<body>
+    <nav>
+   <img id="image" src="logo.jfif">
+   <ul id="horizontal-list">
+       <li><a href="../home/Front Porch Picking Online Supermarket.html">Home</a></li>
+	   <li>
+	   <div class="dropdown">
+		  Grocery
+		  <div class="dropdown-content">
+			<a href="#a5">Fruits</a>
+			<a href="#a6">Vegetables</a>
+			<a href="#a7">Grains & Bread</a>
+		  </div>
+        </div>
+       </a></li>
+	   <li><a href="..\cloths\Front Porch Picking cloths.html">Clothes</a></li>
+	   <li><a href="..\Electronics\Front Porch Picking Electronics.html">Electronics</a></li>
+	   <li><a href="..\Snacks\Front Porch Picking Snacks.html">Snacks & Munchies Corner</a></li>
+	   <li><a id="showDiv"> <img src="cart1.jpg" style="height:25px;width:30px;margin-right:9px;"> CART </a> 
+	          <!--     CART CODE STARTS HERE ::: -->
+ 
+			 <div id="cart">
+				<div class="cart-items">  
+					<div class="cart-headings">
+					    <div> <b>ITEM </b></div>
+                        <div> <b>PRICE</b> </div>
+						<div> <b>QUANTITY </b></div>
+					</div> 
+				</div>	
+					<div class="total-price">
+						<table>
+						 <tr>
+							  <td><b>Subtotal</b></td>
+							  <td><b>Rs <span class="cart-total-price"> 117 </span> </b></td>
+						 </tr>
+						 <tr>
+							  <td><b>Delivery Charge</b></td>
+							  <td><b>Rs <span class="cart-delivery">  </span> </b></td>
+						 </tr>
+						 <tr>
+							  <td><b>Total</b></td>
+							  <td><b>Rs <span class="total"> 87,725.58 </span> </b></td>
+						 </tr>
+						</table>
+				   </div>
+			</div></li>
+   </ul>
+   
+   <label id="icon">
+       <i class="fas fa-bars"></i>
+   </label>
+   
+   </nav>
+   
+   
+   <header>
+    <div class="slideshow-container">
+
+       <div class="mySlides fade">
+           <a href="#a5"><img src="fruits1.png" ></a>
+      </div>
+
+       <div class="mySlides fade">
+             <a href="#a6"><img src="f.jfif"></a>
+         </div>
+
+      <div class="mySlides fade">
+            <a href="#a7"><img src="k.jfif"></a>
+      </div>
+      <div class="mySlides fade">
+            <a href="#a7"><img src="bread.jfif"></a>
+      </div>
+    </div>
+	
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+    </div>
+	
+   </header>
+   
+    <main>
+	
+	<h1 style="text-align:center;margin-top:590px;font-size:60px;color:black;text-shadow: 1px 1px 2px red, 0 0 25px grey, 0 0 5px darkblue;" id="a5" class="a10">FRUITS</h1>
+	<div id="main">
+	
+       <div class="fruits1">
+	           <img src="apple.jpg" class="fruits"> 
+			   <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-90px;margin-top:-10px;"><b> Apple-Red Delicious, Regular</b> </p>		
+               <p class="pcs">4pcs-(Approx 530g-640g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>80</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">60</span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	 
+	   <div class="fruits1"><img src="banana.jpg" class="fruits">
+               <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-180px;margin-top:-10px;"> <b>Banana Robusta</b></p>		
+               <p  style="margin-left:-107px;" class="pcs">12pcs-(Approx 950g-1000g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>80</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">60 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="black-grapes.jpg" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-200px;margin-top:-10px;"><b>Black Grapes </b></p>		
+               <p class="pcs">Approximately 530g-640g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>100</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">75</span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="coconut.jpg" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-230px;margin-top:-10px;"><b> Coconut</b> </p>		
+               <p class="pcs">1pc-(Approx 530g-640g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>55</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">44  </span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="cherry.jpg" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-240px;margin-top:-10px;"><b>Cherry</b></p>		
+               <p class="pcs">Approximately 250g-280g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>300</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">270 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="grapes.jpg" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-240px;margin-top:-10px;"> <b>Grapes</b></p>		
+               <p class="pcs">Approximately 530g-640g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>100</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">80 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="green-apple.jfif" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-210px;margin-top:-10px;"><b>Green Apple</b></p>		
+               <p class="pcs">4pcs-(Approx 530g-640g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>85</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">65 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="kiwi.png" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-260px;margin-top:-10px;"><b> Kiwi </b></p>		
+               <p class="pcs">4pcs-(Approx 530g-640g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>120</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">97  </span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="guava.jpg" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p class="food"  style="margin-left:-250px;margin-top:-10px;"> <b>Guava</b></p>		
+               <p class="pcs">4pcs-(Approx 530g-640g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>112</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">70  </span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="mango.jpg" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-240px;margin-top:-10px;"> <b>Mango</b> </p>		
+               <p class="pcs">4pcs-(Approx 530g-640g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>100</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">65  </span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="orange.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-240px;margin-top:-10px;"><b> Orange</b></p>		
+               <p class="pcs">4pcs-(Approx 530g-600g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>100</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">80 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="papaya.jfif" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p class="food"  style="margin-left:-240px;margin-top:-10px;"><b>Papaya </b></p>		
+               <p class="pcs">4pcs-(Approx 560g-690g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>90</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">78  </span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="pineapple.jpg" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p class="food"  style="margin-left:-220px;margin-top:-10px;"><b>Pineapple</b></p>		
+               <p class="pcs">4pcs-(Approx 650g-700g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>110</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">90 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="pomegranate.jpg" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-205px;margin-top:-10px;"><b>Pomegranate </b></p>		
+               <p class="pcs">4pcs-(Approx 530g-600g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>120</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">98  </span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	  </div>
+	   <div class="fruits1"><img src="strawberry.jpg" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-220px;margin-top:-10px;"><b>Strawberry </b></p>		
+               <p class="pcs">4pcs-(Approx 330g-370g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>240</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">217 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+       <div class="fruits1"><img src="watermelon.jfif" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-210px;margin-top:-10px;"><b>Watermelon </b> </p>		
+               <p class="pcs">2pcs-(Approx 850g-980g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>80</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">60  </span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="plum.png" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-250px;margin-top:-10px;"><b>Plum </b></p>		
+               <p class="pcs">Approximately 250g-300g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>190</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">170  </span></p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+       <div class="fruits1"><img src="Dragon Fruit.jfif" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p class="food" style="margin-left:-205px;margin-top:-10px;"> <b>Dragon Fruit</b></p>		
+               <p class="pcs">4pcs-(Approx 570g-640g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>240</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">199 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   
+    </div>
+	
+	
+	<h1 style="text-align:center;margin-top:90px;font-size:60px;color:black;text-shadow: 1px 1px 2px red, 0 0 25px grey, 0 0 5px darkblue;" id="a6" class="a10">VEGETABLES</h1>
+	<div id="main">
+       <div class="fruits1"><img src="beans.jfif" class="fruits">
+	          <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-240px;margin-top:-10px;"><b>Beans</b></p>		
+               <p  style="margin-left:-110px;" class="pcs">Approximately 250g-300g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>30</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">20 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="bitter gourd.jfif" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-210px;margin-top:-10px;"> <b>Bitter Gourd</b></p>		
+               <p class="pcs">Approximately 500g-510g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>22</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">17.82  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="brinjal.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-240px;margin-top:-10px;"> <b>Brinjal</b></p>		
+               <p class="pcs">Approximately 500g-640g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>45</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">42 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="broccoli.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-235px;margin-top:-10px;"><b> Broccoli</b> </p>		
+               <p class="pcs">1pcs-(Approx 230g-300g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>180</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">160  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="cabbage.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-235px;margin-top:-10px;"><b>Cabbage</b> </p>		
+               <p class="pcs">2pcs-(Approx 430g-540g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>15</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">9 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="capsicum.jfif" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-225px;margin-top:-10px;"> <b>Capsicum </b></p>		
+               <p class="pcs">Approximately 330g-440g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>33</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">27 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="carrot.jfif" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-245px;margin-top:-10px;"> <b>Carrot </b></p>		
+               <p class="pcs">Approximately 250g-300g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>23</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">17 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="cauliflower.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-215px;margin-top:-10px;"><b> Cauliflower</b></p>		
+               <p class="pcs">2pcs-(Approx 330g-440g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>13</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">11</span>   </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="ladyfinger.jfif" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-220px;margin-top:-10px;"> <b>Ladyfinger</b></p>		
+               <p class="pcs">Approximately 100g-110g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>37</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">28  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="loki.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-260px;margin-top:-10px;"><b>Loki</b></p>		
+               <p class="pcs">2pcs-(Approx 660g-670g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>43</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">35  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="peas.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-260px;margin-top:-10px;"><b> Peas</b></p>		
+               <p class="pcs">Approximately 230g-330g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>35</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">25  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="spinach.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-240px;margin-top:-10px;"><b>Spinach</b> </p>		
+               <p class="pcs">Approximately 430g-540g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>70</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">65 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="potato.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-245px;margin-top:-10px;"><b> Potato </b></p>		
+               <p class="pcs">Approximately 230g-240g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>60</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">50  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="pumpkin.jfif" class="fruits">
+	           <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p  class="food" style="margin-left:-230px;margin-top:-10px;"> <b>Pumpkin</b></p>		
+               <p class="pcs">2pcs-(Approx 230g-240g)</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>60</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">50  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="mushroom.png" class="fruits">
+	            <p><img src="green.png" class="green"></p>
+			   <p class="fresho">Fresho</p>
+               <p class="food" style="margin-left:-220px;margin-top:-10px;"><b>Mushroom</b></p>		
+               <p class="pcs">Approximately 230g-240g</p>			   
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>100</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">80  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+      
+	   
+    </div>
+	
+	
+	<h1 style="text-align:center;margin-top:80px; font-size:60px;color:black;text-shadow: 1px 1px 2px red, 0 0 25px grey, 0 0 5px darkblue;" id="a7" class="a10">Pulses & Grains</h1>
+	<div id="main">
+       <div class="fruits1"><img src="b1.jfif" class="fruits" style="height:180px;width:130px">
+	         <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-225px;" class="fresho">Britannia</p>
+               <p class="food" style="margin-left:-215px;margin-top:-10px;"><b>Fruit Bread </b></p>
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>20</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">15 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="brown bread.png" class="fruits" style="height:180px;width:200px">
+	            <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-250px;" class="fresho">Bann</p>
+               <p  class="food" style="margin-left:-203px;margin-top:-10px;"> <b>Brown Bread</b> </p>
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>38</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">32 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="macroni.jpg" class="fruits" style="height:180px;width:180px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-240px;" class="fresho">Maggi</p>
+               <p  class="food" style="margin-left:-230px;margin-top:-10px;"><b>Macroni</b></p>
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>25.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">22.00 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="oat.jpg" class="fruits" style="height:180px;width:170px">
+	            <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-240px;" class="fresho">Saffola</p>
+               <p  class="food" style="margin-left:-210px;margin-top:-10px;"><b>Masala Oats</b> </p>		
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>17.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">15.00  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="oats.jpg" class="fruits" style="height:180px;width:200px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-235px;" class="fresho">Quaker</p>
+               <p  class="food" style="margin-left:-255px;margin-top:-10px;"><b>Oats </b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>85</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">77  </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="Pasta1.jpg" class="fruits" style="height:180px;width:140px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-235px;" class="fresho">Finosta</p>
+               <p  class="food" style="margin-left:-210px;margin-top:-10px;"><b>Penne Pasta</b></p>
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>90</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">82 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="Pasta2.jpg" class="fruits" style="height:180px;width:130px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-226px;" class="fresho">Napolina</p>
+               <p  class="food" style="margin-left:-210px;margin-top:-10px;"><b>Fusilli Pasta </b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>96</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">89 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1"><img src="Pasta3.jpg" class="fruits" style="height:180px;width:130px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-214px;" class="fresho">Del Monte</p>
+               <p  class="food" style="margin-left:-210px;margin-top:-10px;"> <b>Spiral Pasta </b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>107.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">99.00 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="burger bun.jfif" class="fruits" style="height:180px;width:160px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-187px;" class="fresho">Quality Bakers</p>
+               <p  class="food" style="margin-left:-210px;margin-top:-10px;"><b>Burger Bun</b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>50.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">40.00 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="soya.jfif" class="fruits" style="height:180px;width:150px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-235px;" class="fresho">Fortune</p>
+               <p  class="food" style="margin-left:-205px;margin-top:-10px;"> <b>Soya Chunks</b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>19</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">15 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="popcorn.jfif" class="fruits" style="height:180px;width:130px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-240px;" class="fresho">Act II</p>
+               <p  class="food" style="margin-left:-230px;margin-top:-10px;"><b>Popcorn</b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>14</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">10 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="pancakes.jpg" class="fruits" style="height:180px;width:150px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-195px;" class="fresho">Betty Crocker</p>
+               <p  class="food" style="margin-left:-230px;margin-top:-10px;"><b>Pancakes</b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>190</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">184 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="masoor.jpg" class="fruits" style="height:180px;width:150px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-209px;" class="fresho">Pro Nature</p>
+               <p  class="food" style="margin-left:-208px;margin-top:-10px;"><b>Masoor Dal</b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>190</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">184 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="moong.jpg" class="fruits" style="height:180px;width:140px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-205px;" class="fresho">Pro Nature</p>
+               <p  class="food"  style="margin-left:-205px;margin-top:-10px;"><b>Moong Dal</b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>190</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">184 </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   <div class="fruits1"><img src="tur.jpg" class="fruits" style="height:180px;width:140px">
+	           <p><img src="green.png" class="green"></p>
+			   <p style="margin-left:-205px;" class="fresho">Pro Nature</p>
+               <p  class="food" style="margin-left:-230px;margin-top:-10px;"><b>Tur Dal</b></p>	
+			   <div class="price">
+				   <p> MRP:&nbsp;&nbsp;<strike>190</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">184</span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+    </div>
+	</main>
+	
+	<footer>
+	
+	<div id="footer2">
+	    <table cellspacing="20px">
+	     <tr>
+		     <td class="blue"> <b> POPULAR CATEGORIES: </b>  </td>
+			 <td class="red"> <b>  
+             <span> Apple, </span>   <span> Banana, </span>  <span>Bitter Gourd, </span> <span> Coconut, </span> <span> Cherry, </span> <span>
+			  Grapes, </span> <span> Loki, </span> <span> Lady Finger,  </span> <span>
+			Soya chunks, </span> <span> Mango, </span> <span> Carrot</span>  <span> Leafy Vegetables, </span>  <span> Pasta,</span>  <span>Oats, </span> <span> Papaya,</span><br>  <span> Spiral Pasta,</span> <span> Fruit Bread, </span> <span>Potato,</span>
+			<span> Broccoli,</span><span> Water Melon,</span><span> Pancake Mix,</span><span>Moong Dal,</span><span>Tur Dal .</span>
+			</b> </td>
+		 </tr>
+		  <tr>
+		     <td class="blue"> <b> POPULAR BRANDS: </b>  </td>
+			 <td class="red"> <b>
+            <span>Fresho,  </span> <span>Britannia,</span> Bann, </span> <span> Maggi, </span>  <span>Quaker,</span> <span>Saffola, </span>  <span>Finosta,</span> <span>   </span> Napolina, <span>Horlicks,  </span>  <span>Del Monte,</span> <span>Fresho  </span>
+		   <span> Quality Bakers,</span> <span>Fortune,</span><span> Act II, </span><span>Betty Crocker, </span><br><span>Bann,</span>   <span>Fussili,</span> <span>Spiral.</span>  </b></td>
+		 </tr>
+		  <tr>
+		     <td class="blue"> <b> CITIES WE SERVE: </b> </td>
+			 <td class="red"> <b>  <span> Bangalore,  </span>  <span>Hyderabad, </span>  <span> Mumbai, </span>  <span> Pune, </span>  <span>Chennai, </span>  <span> Delhi,  </span>   <span> Mysore,  </span>  <span> Madurai, </span>  <span> Coimbatore, </span> <span> Vijayawada-Guntur, </span>
+			  <span> Kolkata,  </span>  <span>Ahmedabad-Gandhinagar, </span> <br>   <span>Nashik , </span> <span> Lucknow-Kanpur, </span> <span>Gurgaon,  </span> <span>Vadodara,  </span> <span>Visakhapatnam,  </span> <span>Surat,  </span> <span> Nagpur,  
+			  </span>  <span>Patna, </span> <span> Indore, </span>  <span> Chandigarh Tricity, </span> <span> Jaipur, </span> <span> Bhopal, </span> <span> Noida-Ghazi<br>abad,  </span> <span>Kochi.  </span> </b>  </td>
+		 </tr>
+		  </table>
+	</div>
+	
+	<div id="footer1">
+	    <div style="display:inline-block;vertical-align:top;padding-right:100px;line-height:3rem">
+		    <ul id="about">
+			    <b><li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">Front Porch Picking</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">About Us</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">In News</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">Privacy Policy<a/></li></b>
+			</ul>
+		</div>
+		<div style="display:inline-block;vertical-align:top;padding-right:100px;line-height:3rem">
+		    <ul id="help">
+			    <b><li class="x">Help</li>
+				<li class="x" id="contact">Contact Us</li></b>
+				<li style="display:none;color:white;background-color:black;padding:0px 4px;" id="h"><span> 1840 130 1000</span></li>
+			</ul>
+		</div>
+		<div style="display:inline-block;padding-right:100px;">
+		    <ul id="download">
+			    <li style="margin-bottom:14px;font-family:cursive;padding-top:9px;" class="x"><b>Download Our App</b></li>
+				<li style="margin-bottom:20px;"><a href="https://www.apple.com/in/app-store/" style="text-decoration:none"><img src="playstore.png"></a></li>
+				<li style="margin-bottom:3px;"><a href="https://www.apple.com/in/app-store/" style="text-decoration:none"><img src="playstore1.png"></a></li>
+			</ul>
+		</div>
+		<div style="display:inline-block;vertical-align:top;">
+		    <ul style="list-style:none;">
+			    <li id="social" class="x"><b>Get Social With Us</b></li>
+				<li>
+				    <img src="fb.png" style="height:40px;width:40px;margin-left:1rem;border-radius:20%">
+				    <img src="insta.png" style="height:40px;width:40px;margin-left:1rem;border-radius:20%">
+				</li>
+			</ul>
+		</div>
+    </div>
+	</footer>
+	
+    <script src="grocery.js" type="text/javascript"></script>
+</body>
+</html>

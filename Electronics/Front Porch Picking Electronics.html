@@ -1,0 +1,473 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="..\electronics\favicon (1).ico" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="electronics.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+<body>
+    <nav>
+   <img id="image" src="logo.jfif">
+   <ul id="horizontal-list">
+       <li><a href="../home/Front Porch Picking Online Supermarket.html">Home</a></li>
+	   <li>
+	   <a href="..\grocery\Front Porch Picking grocery.html">Grocery</a></li>
+	   <li><a href="..\cloths\Front Porch Picking cloths.html">Clothes</a></li>
+	   <li><div class="dropdown">
+		  Electronics 
+		  <div class="dropdown-content">
+			<a href="#a5">Refrigerator</a>
+			<a href="#a6">Air Condtioner</a>
+			<a href="#a7">Television</a>
+		  </div>
+        </div></li>
+	   <li><a href="..\snacks\Front Porch Picking snacks.html">Snacks & Munchies Corner</a></li>
+	   <li><a id="showDiv"> <img src="cart1.jpg" style="height:25px;width:30px;margin-right:9px;"> CART </a> 
+	          <!--     CART CODE STARTS HERE ::: -->
+ 
+			 <div id="cart">
+				<div class="cart-items">  
+					<div class="cart-headings">
+					    <div> <b>ITEM </b></div>
+                        <div> <b>PRICE</b> </div>
+						<div> <b>QUANTITY </b>	</div>
+					</div> 
+				</div>	
+					<div class="total-price">
+						<table>
+						 <tr>
+							  <td><b>Subtotal</b></td>
+							  <td><b>Rs <span class="cart-total-price"> 117 </span> </b></td>
+						 </tr>
+						 <tr>
+							  <td><b>Delivery Charge</b></td>
+							  <td><b>Rs <span class="cart-delivery">  </span> </b></td>
+						 </tr>
+						 <tr>
+							  <td><b>Total</b></td>
+							  <td><b>Rs <span class="total"> 87,725.58 </span> </b></td>
+						 </tr>
+						</table>
+				   </div>
+			</div></li>
+   </ul>
+   <label id="icon">
+       <i class="fas fa-bars"></i>
+   </label>
+   
+   </nav>
+   
+   <header>
+    <div class="slideshow-container">
+
+       <div class="mySlides fade">
+           <a href="#a5"><img src="Refrigerator.jpeg" ></a>
+      </div>
+
+       <div class="mySlides fade">
+            <a href="#a6"> <img src="AirConditioner.jpg"></a>
+         </div>
+
+      <div class="mySlides fade">
+           <a href="#a7"> <img src="television.jpeg"></a>
+      </div>
+
+    </div>
+	
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+    </div>
+	
+   </header>
+   
+    <main>
+	
+	<h1 id="a5" class="st">Refrigerator</h1>
+	<div id="main">
+	
+       <div class="fruits1">
+	           <img src="Whirlpool190L.jpg" class="fruits" style="height:140px;width:65px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Whirlpool 190L</b></p>		
+               <p class="pcs" style="font-size:15px">3 Star Direct-Cool Single Door Refrigerator<br>WDE 205 CLS 3S,Blue</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>15,400.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">12490.00 </span>   </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	    <div class="fruits1">
+	           <img src="Whirlpool200L.jpg" class="fruits" style="height:140px;width:65px"> 
+               <p class="food"  style="margin-top:50px;font-size:20px"> <b>Whirlpool 200L</b></p>		
+               <p class="pcs" style="font-size:15px">4 Star Invertor Direct-cool Refrigerator<br>215 ICEMAGIC PRO ROY 4S INV,Sapphire </p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>20,750.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">17240.00 </span>   </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Whirlpool215L.jpg" class="fruits" style="height:140px;width:65px"> 
+               <p class="food"  style="margin-top:50px;font-size:20px"> <b>Whirlpool 215L</b></p>		
+               <p class="pcs" style="font-size:15px">5 Star Invertor Direct-cool Refrigerator<br>230 ICEMAGIC PRO ROY 5S INV</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>23,600.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">18740.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	    <div class="fruits1">
+	           <img src="Samsung253L.jpg" class="fruits" style="height:140px;width:65px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Samsung 253L</b></p>		
+               <p class="pcs" style="font-size:15px">3 star Invertor Frost-free Refrigerator<br>RT28T2483S8/HL,Elegant Inox</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>28,990.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">23490.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Samsung198L.jpg" class="fruits" style="height:140px;width:65px"> 
+               <p class="food"  style="margin-top:50px;font-size:20px"> <b>Samsung 198 L</b></p>		
+               <p class="pcs" style="font-size:15px">5 Star Invertor Direct-cool Refrigerator<br>RR21T2H2WCB/HL,CAMELLIA BLACK</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>20,990.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">17590.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Samsung324L.jpg" class="fruits" style="height:140px;width:65px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Samsung 324L</b></p>		
+               <p class="pcs" style="font-size:15px">3 Star Invertor Frost-Free Refrigerator<br>RT34T4513S8/HL ,Elegant Inox</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>41,900.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">32290.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Haier195L.jpg" class="fruits" style="height:140px;width:150px"> 
+               <p class="food"  style="margin-top:50px;font-size:20px"> <b>Haier 195L</b></p>		
+               <p class="pcs" style="font-size:15px">4 star Direct cool Refrigerator<br>HED-20CFDS</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>18,400.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">13440.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Haier53L.jpg" class="fruits" style="height:140px;width:65px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Haier 53L</b></p>		
+               <p class="pcs" style="font-size:15px">2 Star Direct cool Fridge<br>HR-65KS,BLACK</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>11,500.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">8999.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Haier182L.jpg" class="fruits" style="height:140px;width:150px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Haier 182L</b></p>		
+               <p class="pcs" style="font-size:15px">2 star Direct cool Refrigerator<br>HED-18TRF,Red Freesia</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>16,000.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">11800.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   </div>
+	 
+	 </div>
+	 
+	  
+	<h1 class="st" id="a6">Air Conditioner</h1>
+	<div id="main">
+	
+       <div class="fruits1">
+	           <img src="voltas1.jpg" class="fruits" style="height:100px;width:190px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Voltas</b></p>		
+               <p class="pcs" style="font-size:15px">1.5 Ton  4 Star Inverter Split A.C<br>Copper 184V CZJ,WHITE</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>33,990.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">25990.00   </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	    <div class="fruits1">
+	           <img src="voltas2.jpg" class="fruits" style="height:100px;width:190px"> 
+               <p class="food"  style="margin-top:50px;font-size:20px"> <b>Voltas</b></p>		
+               <p class="pcs" style="font-size:15px">1 Ton 3 Star Split A.C<br>Copper 123VCZTT WHITE</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>28,990.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">20490.00   </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="LG1.jpg" class="fruits" style="height:100px;width:190px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>LG</b></p>		
+               <p class="pcs" style="font-size:15px">1 Ton 5 Star Invertor Split A.C<br>Copper,Hd Filter MS-Q12YNZA,White</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>34,600.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">23740.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	    <div class="fruits1">
+	           <img src="LG2.jpg" class="fruits" style="height:100px;width:190px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>LG</b></p>		
+               <p class="pcs" style="font-size:15px">1 Ton 3 Star Invertor Split AC<br>JS-Q12CPXD,White</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>36,990.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">29490.00 </span>   </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Bluestar1.jpg" class="fruits" style="height:100px;width:190px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Bluestar</b></p>		
+               <p class="pcs" style="font-size:15px">5 Star Invertor Split AC<br>IC518DBTX,White</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>38,990.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">18590.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Bluestar2.jpg" class="fruits" style="height:100px;width:190px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Bluestar</b></p>		
+               <p class="pcs" style="font-size:15px">3 Star Invertor Split AC<br>Copper IC315AATU White</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>29,900.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">19290.00   </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="daikin1.jpg" class="fruits" style="height:120px;width:190px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Daikin</b></p>		
+               <p class="pcs" style="font-size:15px">0.8 Ton 3 Star Split A.C<br>Copper FTL28TV,White</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>22,400.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">27440.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="daikin2.jpg" class="fruits" style="height:120px;width:190px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Daikin</b></p>		
+               <p class="pcs" style="font-size:15px">5 Star Invertor Split A.C<br>Copper,FTKG50TV,White</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>42,500.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">12999.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="daikin3.jpg" class="fruits" style="height:120px;width:190px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Daikin</b></p>		
+               <p class="pcs" style="font-size:15px">5 star Split AC <br>Copper FTK60TV,White</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>75,000.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">62800.00   </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   </div>
+	 
+	 </div>
+	
+	<h1 id="a7" class="st">Television</h1>
+	<div id="main">
+	
+       <div class="fruits1">
+	           <img src="samsung1.jpg" class="fruits" style="height:160px;width:170	px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Samsung</b></p>		
+               <p class="pcs" style="font-size:15px">50 Inches Ultra HD LED Smart T.V <br>UA50TUE60AKXXL Titan Gray (2020 Model)</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>68,400.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">48490.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	    <div class="fruits1">
+	           <img src="samsung2.jpeg" class="fruits" style="height:140px;width:170px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Samsung</b></p>		
+               <p class="pcs" style="font-size:15px">43 Inches Ultra HD LED Smart T.V<br>UA43TE50AAKXXL Glossy Black (2020 Model) </p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>38,750.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">32240.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="samsung3.jpg" class="fruits" style="height:142px;width:170px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Samsung</b></p>		
+               <p class="pcs" style="font-size:15px">32 Inches Ultra HD LED Smart T.V<br>UA32T43540AKXXL Glossy Black (2020 Model)</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>19,900.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">17740.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	    <div class="fruits1">
+	           <img src="Lg12.jpg" class="fruits" style="height:140px;width:165px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>LG</b></p>		
+               <p class="pcs" style="font-size:15px">43 Inches 4K Ultra HD Smart LED T.V<br>43UM7290PTF Ceramic Black</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>52,990.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">34490.00   </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Lg13.jpg" class="fruits" style="height:140px;width:165px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>LG</b></p>		
+               <p class="pcs" style="font-size:15px">32 Inches HD Ready  Smart LED T.V<br>32LM563BPTC Dark Iron Gray (2020 Model)</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>20,990.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">5590.00   </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Sony1.jpg" class="fruits" style="height:140px;width:165px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Sony</b></p>		
+               <p class="pcs" style="font-size:15px"> Bravia 24 Inches HD Ready LED TV<br>KLV-24P413D(Black)</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>14,900.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">11290.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="Sony2.jpg" class="fruits" style="height:140px;width:165px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Sony</b></p>		
+               <p class="pcs" style="font-size:15px">Bravia 65 Inches 4K Ultra HD Smart LED TV<br>65X7400H Black (2020 Model)</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>1,49,900.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">99440.00 </span>   </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="panasonic1.jpg" class="fruits" style="height:140px;width:165px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Panasonic</b></p>		
+               <p class="pcs" style="font-size:15px">40 Inches Full HD Smart LED TV<br>TH-40HS450DX Black(2020 Model)</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>34,500.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">27999.00  </span>  </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	  <div class="fruits1">
+	           <img src="panasonic2.jpg" class="fruits" style="height:140px;width:165px"> 
+               <p  class="food" style="margin-top:50px;font-size:20px"> <b>Panasonic</b></p>		
+               <p class="pcs" style="font-size:15px">43 Inch 4K Ultra HD IPS LED TV<br>TH-43FX670DX(2020 Model)</p>			   
+			   <div class="price">
+				   <p> <b>MRP:</b>&nbsp;&nbsp;<strike>94,000.00</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cost">29800.00 </span> </p>
+				   <label> Quantity </label>
+				   <input type="text" class="qnty">
+				   <button class="shop-item-button"> ADD <img src="cart.jpg" width="20px" height="20px"> </button>
+			   </div>
+	   </div>
+	   </div>
+	 
+	 </div>
+	</main>
+	
+	<footer>
+	
+	<div id="footer2">
+	    <table cellspacing="20px">
+	     <tr>
+		     <td class="blue"> <b> POPULAR CATEGORIES: </b>  </td>
+			 <td class="red"> <b>  
+             <span> 40 Inches Full HD Smart LED TV Black(2020 Model) </span>   <span> 43 Inches 4K Ultra HD Smart LED T.V  Ceramic Black, </span>  <span>50 Inches Ultra HD LED Smart T.V  Titan Gray (2020 Model), </span> <span>5 Star Invertor Split A.C Copper,White, </span> <span> 1 Ton 5 Star Invertor Split A.C Copper,Hd Filter,White, </span> 
+			 <span>4 star Direct cool Refrigerator, </span> <span> 5 Star Invertor Direct-cool Refrigerator,CAMELLIA BLACK .</span>  
+		</b> </td>
+		 </tr>
+		  <tr>
+		     <td class="blue"> <b> POPULAR BRANDS: </b>  </td>
+			 <td class="red"> <b>
+            <span>Samsung,  </span>  <span> LG,</span> Sony, </span> <span> Panasonic, </span>  <span>Daikin, </span> <span>Bluestar, </span>  <span> Voltas,  </span> <span> Haier,  </span>  
+		   <span> Whirlpool.</span>  </b></td>
+		 </tr>
+		  <tr>
+		     <td class="blue"> <b> CITIES WE SERVE: </b> </td>
+			 <td class="red"> <b>  <span> Bangalore,  </span>  <span>Hyderabad, </span>  <span> Mumbai, </span>  <span> Pune, </span>  <span>Chennai, </span>  <span> Delhi,  </span>   <span> Mysore,  </span>  <span> Madurai, </span>  <span> Coimbatore, </span> <span> Vijayawada-Guntur, </span>
+			  <span> Kolkata,  </span>  <span>Ahmedabad-Gandhinagar, </span>  <span>Nashik , </span> <br>  <span> Lucknow-Kanpur, </span> <span>Gurgaon,  </span> <span>Vadodara,  </span> <span>Visakhapatnam,  </span> <span>Surat,  </span> <span> Nagpur,  
+			  </span>  <span>Patna, </span> <span> Indore, </span>  <span> Chandigarh Tricity, </span> <span> Jaipur, </span> <span> Bhopal, </span> <span> Noida-Ghaziabad,  </span> <span>Kochi.  </span> </b>  </td>
+		 </tr>
+		  </table>
+	</div>
+	<div id="footer1">
+	    <div style="display:inline-block;vertical-align:top;padding-right:100px;line-height:3rem">
+		    <ul id="about">
+			    <b><li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">Front Porch Picking</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">About Us</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">In News</a></li>
+				<li><a href="../info/Front Porch Picking information.html" style="text-decoration:none;color:black" class="x">Privacy Policy</a></li></b>
+			</ul>
+		</div>
+		<div style="display:inline-block;vertical-align:top;padding-right:100px;line-height:3rem">
+		    <ul id="help">
+			    <b><li class="x">Help</li>
+				<li class="x" id="contact">Contact Us</li></b>
+				<li style="display:none;color:white;background-color:black;padding:0px 4px;" id="h"><span> 1840 130 1000</span></li>
+			</ul>
+		</div>
+		<div style="display:inline-block;padding-right:100px;">
+		    <ul id="download">
+			    <li style="margin-bottom:14px;font-family:cursive;padding-top:9px;" class="x"><b>Download Our App</b></li>
+				<li style="margin-bottom:20px;"><a href="https://www.apple.com/in/app-store/" style="text-decoration:none"><img src="playstore.png"></a></li>
+				<li style="margin-bottom:3px;"><a href="https://www.apple.com/in/app-store/" style="text-decoration:none"><img src="playstore1.png"></a></li>
+			</ul>
+		</div>
+		<div style="display:inline-block;vertical-align:top;">
+		    <ul style="list-style:none;">
+			    <li id="social" class="x"><b>Get Social With Us</b></li>
+				<li>
+				    <img src="fb.png" style="height:40px;width:40px;margin-left:1rem;border-radius:20%">
+				    <img src="insta.png" style="height:40px;width:40px;margin-left:1rem;border-radius:20%">
+				</li>
+			</ul>
+		</div>
+    </div>
+	</footer>
+	
+    <script src="electronics.js" type="text/javascript"></script>
+</body>
+</html>
